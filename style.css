@@ -8,11 +8,12 @@
     position: fixed;
     padding: 40px;
     color: white;
-    background-color: rgb(98, 130, 162);
+    background-color: rgb(164, 193, 222);
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 1;
 }
 
 nav a {
@@ -24,7 +25,7 @@ nav a {
 }
 
 .image_summer {
-    background-image: url(https://todaysparent.mblycdn.com/tp/resized/2024/08/767x431/summer-activities-feature.png);
+    background-image: url(https://www.debrareble.com/wp/wp-content/uploads/2014/07/Sunlight-Forest-Woods-Nature-Sunshine-Sunrise.jpg);
 }
 
 .section {
@@ -35,6 +36,23 @@ nav a {
 
 .meta {
     position: absolute;
-    bottom: 400px;
-    left: 100px;
+    bottom: 120px;
+    left: 50px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(164, 193, 222);
+    padding: 20px;
+    display:flex;
+    flex-direction: column;
+}
+
+.image_autumn {
+    background-image: url(https://media.istockphoto.com/id/1176602671/photo/falling-autumn-leaves-before-sunset.jpg?s=612x612&w=0&k=20&c=q5syXIvFQOw1VQjXKZifqNkM44pkv7Gu8TG52TG7e7s=);
+}
+
+.image_winter {
+    background-image: url(https://t3.ftcdn.net/jpg/01/33/14/66/360_F_133146697_8ccl7BypSDYT9Ra0Zi3uIFBWXkQTYI0X.jpg);
+}
+
+.image_spring {
+    background-image: url(https://media.istockphoto.com/id/1132264290/photo/walking-path-under-the-beautiful-sakura-tree-or-cherry-tree-tunnel-in-tokyo-japan.jpg?s=612x612&w=0&k=20&c=7AaKcDJmyfbUTDQaX7CllfMKG_Ux5uLB-a8mYK6ZesM=);
 }
