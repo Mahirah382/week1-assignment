@@ -4,16 +4,37 @@
     box-sizing: border-box;
 }
 
-header {
+.header {
     position: fixed;
     padding: 40px;
     color: white;
-    background-color: aquamarine;
+    background-color: rgb(98, 130, 162);
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-nav {
+nav a {
     display: flex;
-    flex-wrap: wrap;
-    
+    flex-wrap: nowrap;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: inherit;
+    text-decoration: none;
+}
+
+.image_summer {
+    background-image: url(https://todaysparent.mblycdn.com/tp/resized/2024/08/767x431/summer-activities-feature.png);
+}
+
+.section {
+    position: relative;
+    height:100vh;
+    background-size: cover;
+}
+
+.meta {
+    position: absolute;
+    bottom: 400px;
+    left: 100px;
 }
