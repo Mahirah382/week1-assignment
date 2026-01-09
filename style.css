@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+    padding: 40px;
+    color: white;
+    background-color: aquamarine;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
